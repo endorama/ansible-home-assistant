@@ -1,0 +1,8 @@
+---
+- name: create user
+  user: 
+    name: "{{ homeassistant__user }}}"
+    comment: "Home Assistant"
+    createhome: no
+    system: yes
+    shell: "/sbin/nologin"

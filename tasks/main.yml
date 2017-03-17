@@ -1,0 +1,8 @@
+---
+# tasks file for roles/home-assistant
+
+- include: system-prerequisites.yml
+- include: user.yml
+- include: folder.yml
+- include: install.yml
+- include: systemd.yml

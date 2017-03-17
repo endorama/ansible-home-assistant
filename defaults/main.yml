@@ -1,0 +1,10 @@
+---
+# defaults file for roles/home-assistant
+# The location of the config directory
+homeassistant__config_dir: /srv/home-assistant-config
+# The default user
+homeassistant__user: ha
+# The default port
+homeassistant__port: 8123
+# The specific version to install or 'latest'
+homeassistant__version: latest

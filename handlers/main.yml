@@ -1,0 +1,8 @@
+---
+# handlers file for roles/home-assistant
+- name: start home assistant
+  systemd:
+    name: "home-assistant"
+    daemon_reload: yes
+    enabled: yes
+    state: started
