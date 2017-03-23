@@ -2,7 +2,7 @@
 - name: add python3
   apt:
     state: present
-    name: "{{ item }}}"
+    name: "{{ item }}"
   with_items:
     - python3-dev
     - python3-pip
@@ -11,7 +11,7 @@
 
 - name: install required python modules (pre-install)
   pip: 
-    name: "{{ item }}}"
+    name: "{{ item }}"
     extra_args: "--upgrade" 
     executable: pip3
   with_items:
