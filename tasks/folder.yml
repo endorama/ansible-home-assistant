@@ -1,10 +1,10 @@
 ---
 - name: create directory
   file: 
-    path: "{{ homeassistant__config_dir }}}"
+    path: "{{ homeassistant__config_dir }}"
     state: directory
     mode: 02775
-    owner: "{{ homeassistant__user }}}"
-    group: "{{ homeassistant__user }}}"
+    owner: "{{ homeassistant__user }}"
+    group: "{{ homeassistant__user }}"
 
   
