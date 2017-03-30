@@ -2,7 +2,7 @@
 - name: install defined version of Home Assistant
   pip:
     name: homeassistant
-    version: "{{ homeassistant__version }}}"
+    version: "{{ homeassistant__version }}"
     executable: pip3
   when: homeassistant__version != 'latest'
 
